@@ -68,7 +68,7 @@
     text-decoration:none;
 	color:black;
   }
-  button{
+  #demo1{
   	width: 40px;
 	height: 40px;
 	float: right;
@@ -105,10 +105,23 @@
   <div class="offcanvas-body">
     <p><a class="btn btn-secondary text-white" href="khubchemcourse.html">Learning Guides</a></p>
     <p><a class="btn btn-white" href="khubchemassessment.html">Assessments</a></p>
-	<p><a class="btn btn-white" href="khubchemgrade.html">Grades</a></p>
+    <p><a class="btn btn-white" href="khubchemgrade.html">Grades</a></p>
+    <div class="dropdown">
+    <button type="button" class="btn btn-white dropdown-toggle" data-bs-toggle="dropdown">
+    Dropdown button
+    </button>
+    <ul class="dropdown-menu">
+    <li><p class="px-2"><strong class="text-secondary">Chem Laboratory Activities</strong></p></li>
+	<li><p class="px-2">Scheduled Dates:</p></li>
+	<li><p class="px-2">1]October 17, 2022</p></li>
+	<li><p class="px-2">2]October 18, 2022</p></li>
+	<li><p class="px-2">3]October 26, 2022</p></li>
+	<li><p class="px-2">4]November 3, 2022</p></li>
+    </ul>
+    </div>
   </div>
 </div>
-<button class="mt-2 me-3 btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo">
+<button class="mt-2 me-3 btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo" id="demo1">
     <img class="setting" src="setting.png" alt="setting">
 </button>
 <div class="container mt-1 mb-5">
